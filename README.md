@@ -1,4 +1,4 @@
-# JavaScript exercises, Part II. (events, DOM)
+# JavaScript exercises, Part II. (events, DOM) - AlaaMohammad
 
 ## Exercise #1 (1): Changing text
 

@@ -15,15 +15,16 @@
       /* TODO: write JS code here */
       function change() {
         colors = ["blue", "red", "green", "blue"];
-        i = 0;
+        //i = 0;
         let colorToChange = document.getElementById("mydiv");
         document
           .getElementById("mydiv")
           .addEventListener("click", function (event) {
-            colorToChange.style.backgroundColor = colors[i++];
-            if (i >= colors.length) {
-              i = 0;
-            }
+            colorToChange.style.backgroundColor =
+              colors[Math.floor(Math.random() * colors.length)];
+            //if (i >= colors.length) {
+            //i = 0;
+            //}
           });
       }
     </script>
